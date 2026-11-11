@@ -1,0 +1,4 @@
+Simpan logo GIBEI di folder ini dengan nama: logo-gibei.png
+(Disarankan PNG transparan / persegi, minimal 256x256 px.)
+Jika memakai nama/format lain (mis. .jpg / .svg), ubah LOGO_SRC di src/data.js.
+

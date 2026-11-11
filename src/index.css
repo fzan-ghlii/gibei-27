@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+  body {
+    background-color: #0c2a43;
+    color: #1a4162;
+    font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  ::selection {
+    background: #05c3d3;
+    color: #071a2b;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply border border-white/15 bg-white/[0.06] backdrop-blur-xl;
+  }
+  .bg-dots {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+  .bg-dots-dark {
+    background-image: radial-gradient(rgba(26, 65, 98, 0.10) 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+  .lining-nums { font-variant-numeric: lining-nums tabular-nums; }
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-marquee-reverse, .animate-float { animation: none; }
+}
