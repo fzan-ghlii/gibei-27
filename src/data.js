@@ -10,7 +10,7 @@ export const TARGET_DATE = '2026-11-15T15:00:00+07:00'
  * 
  * Cukup ubah nilai di bawah ini menjadi true atau false:
  */
-export const FORCE_REVEAL = true
+export const FORCE_REVEAL = false
 
 // Logo GIBEI: simpan file logo di folder /public dengan nama `logo-gibei.png`
 // (atau ubah path di bawah). Jika file belum ada, otomatis tampil placeholder.
