@@ -113,7 +113,7 @@ export default function Countdown({ time, event }) {
           transition={{ delay: 1.7 }}
           className="mt-8 text-xs tracking-wide text-white/60 sm:text-sm"
         >
-          Diumumkan pada 15 November 2026 · 15.00 WIB
+          Diumumkan pada 14 November 2026 · 12.00 WIB
         </motion.p>
       </div>
     </motion.section>

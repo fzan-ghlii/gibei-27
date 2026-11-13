@@ -1,5 +1,5 @@
 // Target reveal: 15 November 2026, 15:00:00 WIB (UTC+7) — explicit offset, timezone-independent.
-export const TARGET_DATE = '2026-11-15T15:00:00+07:00'
+export const TARGET_DATE = '2026-11-14T12:00:00+07:00'
 
 /**
  * ========================================================
