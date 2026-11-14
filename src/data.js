@@ -8,7 +8,7 @@ export const TARGET_DATE = '2026-11-14T12:00:00+07:00'
  * - false : Menghitung mundur otomatis hingga 15 Nov 2026 15:00 WIB (Pre-Launch)
  * - true  : Buka paksa halaman pengurus (Menggunakan key rahasia admin ke API)
  */
-export const FORCE_REVEAL = false
+export const FORCE_REVEAL = true
 
 // Logo GIBEI: simpan file logo di folder /public dengan nama `logo-gibei.png`
 export const LOGO_SRC = '/logo-gibei.png'
